@@ -1,0 +1,160 @@
+header{
+	background: black;
+	max-width: 1080px;
+	width: 88%;
+}
+h1{
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: #ffffff;
+	text-align:center;
+	font-style: bold;
+	
+}
+h2{
+	font-family: Raleway, sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	color: #ffffff;
+	text-align:center;
+	font-style: italic;
+	/*margin: 0 0 0 170px;*/
+}
+body{
+	background: black;
+  
+	/*padding*/
+}
+h3{
+	font-size:1.125em;
+	font-family: Raleway, sans-serif;
+	font-weight: 700; 
+}
+hr {
+	border:3px dashed white;
+}
+.container {
+	display:flex;
+	justify-content:space-between;
+	width: 90%;
+	max-width: 1080px;
+	margin:0 auto;
+}
+.headers{
+	width:30%;
+	color: #F0F0F0;
+	font-size: 18px;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+}
+.information,
+.contacts,
+.objective,
+.education,
+.IT,
+.skills{
+	width:55%;
+	/*margin: -2em 0 0 20em;*/
+	color:#ffffff;
+	font-size: 1.15em;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+}
+td{
+	width:70%;
+	padding: 5px;
+	/*margin: -2em 0 0 20em;*/
+	color:#ffffff;
+	font-size: 1.15em;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+}
+
+
+.year{
+	width:30%;
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	color: #F0F0F0;
+	}
+
+	a{
+	width:65%;
+	/*margin: -2em 0 0 20em;*/
+	color:white;
+	font-size: .9em;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	}
+	
+a:hover{
+	color: #CECECE;
+}
+
+/*.study,
+.work{
+	width:50%;
+	color:white;
+	font-size: 1.15em;
+	font-family: Helvetica, Verdana, sans-serif;
+} */
+
+.components{
+	width:65%;
+	/*margin: -2em 0 0 20em;*/
+	color:#ffffff;
+	font-size: .95em;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	margin-left: 1.5em;
+}
+.information,
+.contacts,
+.IT{
+	line-height: 1.5em;
+}
+
+.objective{
+	line-height: 1.2em;
+}
+.headlines{
+	list-style: none;
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	margin-left: -2em;
+	color: #F0F0F0;
+}
+
+
+/* Bullet design
+------------------------------------------*/
+.no-bullet{
+	padding: 0;
+	list-style: none;
+}
+
+.bullet{
+	height: 16px;
+	width: 16px;
+	background: url(images/bullet3.png);
+	display: inline-block;
+	margin: 0 1em 0 -2em;
+}
+
+.no-bullet{
+	padding: 0;
+	list-style: none;
+}
+
+
+/* Media queries
+------------------------------------------*/
+
+@media screen and (min-width: 320px){
+
+}
+
+
